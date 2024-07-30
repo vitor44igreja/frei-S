@@ -1,9 +1,8 @@
-.pagina-app{
-
-
+.pagina-inicio{
     background-color:#F5F6FA ;
     height: 100vh;
 
+    
 
     h1{
         margin-left: 50px;
@@ -39,9 +38,9 @@
             gap: 20px;
         }
 
-        .links{
+        .links , a{
+            text-decoration: none;
             color: white;
-
 
             font-family: 'Roboto';
 
@@ -53,11 +52,17 @@
 
 
     .secao{
-        margin: 50px;
-
         display: flex;
         gap: 100px;
+        margin: 50px;
+
+        h4, p, a{
+            text-decoration: none;
+             color: rgb(0, 0, 0);
+        }
     }
+
+    
 
     .card{
         display: flex;

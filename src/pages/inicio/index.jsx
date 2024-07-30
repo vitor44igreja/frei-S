@@ -4,7 +4,7 @@ import './index.scss';
 
 export default function App() {
   return (
-    <div className="pagina-app">
+    <div className="pagina-inicio">
 
       <header className="cabecalho">
 
@@ -23,7 +23,7 @@ export default function App() {
 
       <section className="secao">
 
-        <Link to='/'>
+        <Link to='/ex1'>
           <div className="card">
             <div className="bloco dourado"></div>
 
