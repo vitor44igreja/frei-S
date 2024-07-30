@@ -27,8 +27,9 @@ export default function Exercicio1() {
                     <hr />
 
                 <div className="txt">
-                    <p>Implementar um programa em Javascript para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto. <b>O cupom diz quantos reais terá de desconto.</b></p>
+                    <p>Implementar um programa em Javascript para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto. <b>O cupom diz quantos reais</b> terá de desconto.</p>
                 </div>
+
 
                 <div className="valor-cupom">
                     <h1>Informe o valor do pedido</h1>

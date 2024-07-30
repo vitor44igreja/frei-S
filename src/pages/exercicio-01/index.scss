@@ -1,34 +1,64 @@
-.pagina-ex1{
-    background-color:#F5F6FA ;
+.pagina-ex1 {
+    background-color: #F5F6FA;
     height: 100vh;
 
 
 
-    .secao{
+    .secao {
         padding: 40px 50px;
         font-family: "Roboto";
 
-        .titulo{
+        .titulo {
             display: flex;
-
+            align-items: center;
+            margin-bottom: 10px;
         }
 
-        .txt{
+        .txt {
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
+            padding: 0px 10px;
+            height: 213px;
+
+            margin-top: 20px;
+
+            border-radius: 12px;
+
+            font-size: 15px;
+            text-align: center;
+            background-color: #FFF;
         }
 
-        .valor-cupom{
+        .valor-cupom {
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            justify-content: center;
 
+
+            width: 476px;
+            height: 295px;
+            border-radius: 12px;
+            margin-top: 20px;
+
+
+
+            background-color: #FFF;
         }
 
-        hr{
-
+        hr {
+            border: none;
+            height: 3px;
+            background-color: #FFCE37;
         }
     }
 
 
 
-    .cabecalho{
+    .cabecalho {
         display: flex;
 
         justify-content: space-between;
@@ -39,9 +69,9 @@
         height: 90px;
 
         background-color: #6278F7;
-        
 
-        .logo{
+
+        .logo {
             color: aliceblue;
             font-family: 'Roboto';
 
@@ -53,7 +83,8 @@
             gap: 20px;
         }
 
-        .links , a{
+        .links,
+        a {
             text-decoration: none;
             color: white;
 
@@ -63,4 +94,5 @@
             display: flex;
             gap: 20px;
         }
-    }}
+    }
+}
