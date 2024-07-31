@@ -17,19 +17,22 @@ export default function Exercicio1() {
                 </div>
             </header>
 
+
+        <div className="exercicio">
+            <div className="titulo">
+                <img src="/assets/images/seta.png" alt="" width={40} />
+                <h1>
+                    Exercício 01 - Cupom de desconto
+                </h1>
+            </div>
+            <hr />
+        </div>
+
             <section className="secao">
-                <div className="titulo">
-                    <img src="/assets/images/seta.png" alt="" width={40} />
-                    <h1>
-                        Exercício 01 - Cupom de desconto
-                    </h1>
-                </div>
-                    <hr />
 
                 <div className="txt">
                     <p>Implementar um programa em Javascript para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto. <b>O cupom diz quantos reais</b> terá de desconto.</p>
                 </div>
-
 
                 <div className="valor-cupom">
                     <h1>Informe o valor do pedido</h1>

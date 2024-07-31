@@ -3,16 +3,37 @@
     height: 100vh;
 
 
+    .exercicio {
+        display: flex;
+        flex-direction: column;
 
-    .secao {
-        padding: 40px 50px;
-        font-family: "Roboto";
+        padding: 40px;
 
         .titulo {
             display: flex;
             align-items: center;
+            gap: 10px;
+
+            font-family: "Roboto";
             margin-bottom: 10px;
         }
+
+        hr {
+            border: none;
+            height: 3px;
+
+            background-color: #FFCE37;
+        }
+    }
+
+    .secao {
+        padding: 0px 50px;
+        font-family: "Roboto";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
 
         .txt {
             display: flex;
@@ -21,8 +42,6 @@
 
             padding: 0px 10px;
             height: 213px;
-
-            margin-top: 20px;
 
             border-radius: 12px;
 
@@ -34,29 +53,19 @@
         .valor-cupom {
             display: flex;
             flex-direction: column;
-            
+
             align-items: center;
             justify-content: center;
-
 
             width: 476px;
             height: 295px;
             border-radius: 12px;
             margin-top: 20px;
-
-
+            margin-bottom: 10px;
 
             background-color: #FFF;
         }
-
-        hr {
-            border: none;
-            height: 3px;
-            background-color: #FFCE37;
-        }
     }
-
-
 
     .cabecalho {
         display: flex;
