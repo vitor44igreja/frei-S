@@ -32,7 +32,7 @@ export default function App() {
           </div>
         </Link>
 
-        <Link to='/'>
+        <Link to='/ex2'>
           <div className="card">
             <div className="bloco verde"></div>
 
@@ -41,7 +41,7 @@ export default function App() {
           </div>
         </Link>
 
-        <Link to='/'>
+        <Link to='/ex3'>
           <div className="card">
             <div className="bloco azul"></div>
             

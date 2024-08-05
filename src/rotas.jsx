@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./pages/inicio";
 import Sobre from "./pages/sobre";
 import Exercicio1 from "./pages/exercicio-01"
+import Exercicio2 from "./pages/exercicio-02";
+import Exercicio3 from "./pages/exercicio-03"
 
 export default function Navegacao() {
     return(
@@ -13,6 +15,8 @@ export default function Navegacao() {
                <Route path="/" element = {<App /> }/> 
                 <Route path="/sobre" element = {< Sobre/>}/>
                 <Route path="/ex1" element = {<Exercicio1/>}/>
+                <Route path="/ex2" element = {<Exercicio2/>}/>
+                <Route path="/ex3" element = {<Exercicio3/>} />
             </Routes>
         </BrowserRouter>
 
