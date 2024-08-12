@@ -57,7 +57,13 @@ export default function App() {
             <p>Exercício 11</p>
           </div>
         </Link>
-        
+        <Link to='/ex10'>
+          <div className="card">
+            <div className="bloco laranja"></div>           
+            <h4>Calculo de IMC com histórico</h4>
+            <p>Exercício 10</p>
+          </div>
+        </Link>
       </section>
 
     </div>

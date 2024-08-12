@@ -37,7 +37,10 @@
 
         width: 215px;
         height: 158px;
+        
+        border-radius: 12px;
 
+        background-color: rgb(255, 255, 255);
         .bloco{
             width: 60px;
             height: 60px;
@@ -58,9 +61,6 @@
             background-color: #6533B7
         }
 
-        border-radius: 12px;
-
-        background-color: rgb(255, 255, 255);
     }
 
 }
