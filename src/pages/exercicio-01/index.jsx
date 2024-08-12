@@ -52,8 +52,9 @@ export default function Exercicio1() {
                     Exercício 01 - Cupom de desconto
                 </h1>
             </div>
-            <hr />
+            <hr className="amarelo"/>
         </div>
+
 
             <section className="secao">
 

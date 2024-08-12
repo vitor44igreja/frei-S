@@ -49,6 +49,15 @@ export default function App() {
             <p>Exercício 03</p>
           </div>
         </Link>
+        <Link to='/ex11'>
+          <div className="card">
+            <div className="bloco roxo"></div>
+            
+            <h4>Tabuada</h4>
+            <p>Exercício 11</p>
+          </div>
+        </Link>
+        
       </section>
 
     </div>

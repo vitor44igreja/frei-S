@@ -52,7 +52,7 @@ export default function Exercicio2() {
                         Exercício 02 - Converter Kg/gramas
                     </h1>
                 </div>
-                <hr />
+                <hr className="verde"/>
             </div>
 
             <section className="secao">

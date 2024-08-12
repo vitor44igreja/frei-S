@@ -2,30 +2,6 @@
     background-color: #F5F6FA;
     height: 100vh;
 
-
-    .exercicio {
-        display: flex;
-        flex-direction: column;
-
-        padding: 40px;
-
-        .titulo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-
-            font-family: "Roboto";
-            margin-bottom: 10px;
-        }
-
-        hr {
-            border: none;
-            height: 3px;
-
-            background-color: #FFCE37;
-        }
-    }
-
     .secao {
         padding: 0px 50px;
         font-family: "Roboto";
