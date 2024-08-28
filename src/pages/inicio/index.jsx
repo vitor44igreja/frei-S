@@ -58,25 +58,37 @@ export default function App() {
         />
         <Card
           link_card='/ex5'
-          cor_card='bloco azulclaro'
-          titulo_card='leitura'
-          exercicio_card='Exercicio 04'
+          cor_card='bloco rosa'
+          titulo_card='Média de notas'
+          exercicio_card='Exercicio 05'
         />
         <Card
           link_card='/ex6'
-          cor_card='bloco azulclaro'
-          titulo_card='leitura'
-          exercicio_card='Exercicio 04'
+          cor_card='bloco laranja'
+          titulo_card='Salário líquido'
+          exercicio_card='Exercicio 06'
         />
         <Card
           link_card='/ex7'
-          cor_card='bloco azulclaro'
-          titulo_card='leitura'
-          exercicio_card='Exercicio 04'
+          cor_card='bloco verdeagua'
+          titulo_card='Cores primárias'
+          exercicio_card='Exercicio 07'
+        />
+        <Card
+          link_card='/ex8'
+          cor_card='bloco preto'
+          titulo_card='Temperatura'
+          exercicio_card='Exercicio 08'
+        />
+        <Card
+          link_card='/ex9'
+          cor_card='bloco cinza'
+          titulo_card='Sorveteria'
+          exercicio_card='Exercicio 09'
         />
         <Card
           link_card='/ex10'
-          cor_card='bloco laranja'
+          cor_card='bloco marromclaro'
           titulo_card='Calculo de IMC com histórico'
           exercicio_card='Exercicio 10'
         />
@@ -87,7 +99,12 @@ export default function App() {
           titulo_card='Tabuada'
           exercicio_card='Exercicio 11'
         />
-
+       <Card
+          link_card='/ex12'
+          cor_card='bloco dourado'
+          titulo_card='Comparador de pessoas'
+          exercicio_card='Exercicio 12'
+        />
       </section>
     </div>
   );

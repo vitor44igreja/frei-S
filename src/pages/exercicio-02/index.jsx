@@ -50,7 +50,7 @@ export default function Exercicio2() {
                 </div>
 
                 <div className="res">
-                    <h2> Resultado : {res} gramas</h2>
+                    <h2>{res} gramas</h2>
                 </div>
 
             </section>
