@@ -12,7 +12,7 @@ export default function Exercicio10() {
             <Linha
                 titulo='Valor total por quantidade'
                 ex='Exercicio 10'
-                cor='#37FFF3'
+                cor='#B75333'
             />
 
         </div>

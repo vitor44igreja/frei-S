@@ -51,6 +51,30 @@ export default function App() {
         />
 
         <Card
+          link_card='/ex4'
+          cor_card='bloco azulclaro'
+          titulo_card='leitura'
+          exercicio_card='Exercicio 04'
+        />
+        <Card
+          link_card='/ex5'
+          cor_card='bloco azulclaro'
+          titulo_card='leitura'
+          exercicio_card='Exercicio 04'
+        />
+        <Card
+          link_card='/ex6'
+          cor_card='bloco azulclaro'
+          titulo_card='leitura'
+          exercicio_card='Exercicio 04'
+        />
+        <Card
+          link_card='/ex7'
+          cor_card='bloco azulclaro'
+          titulo_card='leitura'
+          exercicio_card='Exercicio 04'
+        />
+        <Card
           link_card='/ex10'
           cor_card='bloco laranja'
           titulo_card='Calculo de IMC com histórico'
