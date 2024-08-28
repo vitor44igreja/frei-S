@@ -1,7 +1,8 @@
+import './index.scss';
 import { Link } from "react-router-dom";
 import { useState } from 'react'
-import './index.scss';
 import Cabecalho from "../../components/cabecalho";
+import Linha from "../../components/linha";
 
 export default function Exercicio11() {
 
@@ -31,18 +32,12 @@ export default function Exercicio11() {
     return (
         <div className="pagina-ex11">
             <Cabecalho/>
-            <div className="exercicio">
-                <div className="titulo">
 
-                    <Link to='/'>
-                        <img src="/assets/images/seta.png" alt="" width={40} />
-                    </Link>
-                    <h1>
-                        Exercício 01 - Cupom de desconto
-                    </h1>
-                </div>
-                <hr className="roxo"/>
-            </div>
+            <Linha
+                titulo='Tabuada'
+                ex='Exercicio 11'
+                cor='#6533B7'
+            />
             <section className="secao">
             <div className="txt">
                     <p>Implemente um programa em Javascript que escreva a tabuada de um número informado pelo usuário. A mensagem deve estar no formato ”A x B = X”.</p>

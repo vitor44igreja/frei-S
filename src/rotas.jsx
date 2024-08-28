@@ -15,12 +15,12 @@ export default function Navegacao() {
         <BrowserRouter>
             <Routes>
                <Route path="/" element = {<App /> }/> 
-                <Route path="/sobre" element = {< Sobre/>}/>
+                <Route path="/sobre" element = {<Sobre/>}/>
                 <Route path="/ex1" element = {<Exercicio1/>}/>
                 <Route path="/ex2" element = {<Exercicio2/>}/>
                 <Route path="/ex3" element = {<Exercicio3/>} />
-                <Route path="/ex10" element = {<Exercicio10/>}/>
                 <Route path="/ex11" element = {<Exercicio11/>}/>
+                <Route path="/ex10" element = {<Exercicio10/>}/>
             </Routes>
         </BrowserRouter>
 

@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
-import { useState } from 'react'
 import './index.scss';
-import  Cabecalho from '../../components/cabecalho/index.jsx'
+
+import { useState } from 'react'
+import Cabecalho from '../../components/cabecalho/index.jsx'
+import Linha from "../../components/linha/index.jsx";
 
 export default function Exercicio1() {
 
@@ -17,7 +18,7 @@ export default function Exercicio1() {
     }
 
     function calcularDesconto() {
-        
+
         let pedido = valorPedido
         let cupom = valorcupom
 
@@ -30,19 +31,26 @@ export default function Exercicio1() {
     return (
         <div className="pagina-ex1">
 
-        <Cabecalho/>
-        <div className="exercicio">
-            <div className="titulo">
+            <Cabecalho />
+            <div className="exercicio">
 
-                <Link to ='/'>
-                    <img src="/assets/images/seta.png" alt="" width={40} />
-                </Link>
-                <h1>
-                    Exercício 01 - Cupom de desconto
-                </h1>
+                <Linha 
+                    titulo='Cupom de desconto'
+                    ex='Exercicio 01'
+                    cor='#FFCE37'
+                />
+                
+                {/* <div className="titulo">
+
+                    <Link to='/'>
+                        <img src="/assets/images/seta.png" alt="" width={40} />
+                    </Link>
+                    <h1>
+                        Exercício 01 - Cupom de desconto
+                    </h1>
+                </div>
+                 */}
             </div>
-            <hr className="amarelo"/>
-        </div>
 
 
             <section className="secao">
@@ -53,10 +61,10 @@ export default function Exercicio1() {
 
                 <div className="valor-cupom" onKeyUp={teclaApertada}>
                     <h1>Informe o valor do pedido</h1>
-                    <input type="number" placeholder="0" value={valorPedido} onChange={e => setValorPedido(e.target.value)}/>
+                    <input type="number" placeholder="0" value={valorPedido} onChange={e => setValorPedido(e.target.value)} />
 
                     <h1>Informe o valor do cupom</h1>
-                    <input type="number" placeholder="0" value={valorcupom}  onChange={e => setValorcupom(e.target.value)} />
+                    <input type="number" placeholder="0" value={valorcupom} onChange={e => setValorcupom(e.target.value)} />
 
                     <button onClick={calcularDesconto}> Executar </button>
                 </div>

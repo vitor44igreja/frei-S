@@ -13,6 +13,8 @@
 
     .secao{
         display: flex;
+        flex-wrap: wrap;
+
         gap: 100px;
         margin: 50px;
 
@@ -57,10 +59,13 @@
 
         .azul{
             background-color: #37FFF3;
-        }.roxo{
+        }
+        .roxo{
             background-color: #6533B7
         }
-
+        .laranja{
+            background-color: #B75333
+        }
     }
 
 }

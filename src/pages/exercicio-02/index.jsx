@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
 import { useState } from 'react'
 
 import './index.scss';
 import Cabecalho from "../../components/cabecalho";
+import Linha from "../../components/linha";
 
 export default function Exercicio2() {
 
@@ -30,20 +30,13 @@ export default function Exercicio2() {
 
     return (
         <div className="pagina-ex2">
-            <Cabecalho/>
+            <Cabecalho />
 
-            <div className="exercicio">
-                <div className="titulo">
-
-                    <Link to='/'>
-                        <img src="/assets/images/seta.png" alt="" width={40} />
-                    </Link>
-                    <h1>
-                        Exercício 02 - Converter Kg/gramas
-                    </h1>
-                </div>
-                <hr className="verde"/>
-            </div>
+            <Linha
+                titulo='Converter Kg/Gramas'
+                ex='Exercicio 02'
+                cor='#B3FF37'
+            />
 
             <section className="secao">
                 <div className="txt">

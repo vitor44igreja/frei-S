@@ -3,44 +3,9 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
-.exercicio {
-    display: flex;
-    flex-direction: column;
-
-    padding: 40px;
-
-    .titulo {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-
-        font-family: "Roboto";
-        margin-bottom: 10px;
-    }
-
-        .amarelo{
-            border: none;
-            height: 3px;
-            background-color: #FFCE37;
-        }
-        .verde{
-            border: none;
-            height: 3px;
-            background: #B3FF37;
-        }
-        .azul{
-            border: none;
-            height: 3px;
-            background: #37FFF3;
-        }
-        .roxo{
-            border: none;
-            height: 3px;
-            background: #6533B7;
-        }
-}
 .txt {
     display: flex;
     justify-content: center;

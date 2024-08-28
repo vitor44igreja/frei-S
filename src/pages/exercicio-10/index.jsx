@@ -1,25 +1,20 @@
-import { Link } from "react-router-dom";
-//import { useState } from 'react'
 import './index.scss';
+
 import Cabecalho from "../../components/cabecalho";
+import Linha from "../../components/linha";
 
 export default function Exercicio10() {
     return (
         <div>
 
             <Cabecalho/>
-            <div className="exercicio">
-                <div className="titulo">
 
-                    <Link to='/'>
-                        <img src="/assets/images/seta.png" alt="" width={40} />
-                    </Link>
-                    <h1>
-                        Exercício 01 - Cupom de desconto
-                    </h1>
-                </div>
-                <hr className="laranja" />
-            </div>
+            <Linha
+                titulo='Valor total por quantidade'
+                ex='Exercicio 10'
+                cor='#37FFF3'
+            />
+
         </div>
     )
 }
